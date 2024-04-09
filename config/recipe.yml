@@ -36,6 +36,7 @@ modules:
       - krfb-libs
       - xwaylandvideobridge
       - plasma-discover-notifier
+      - vi
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
