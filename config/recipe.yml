@@ -40,6 +40,7 @@ modules:
       - plasma-discover-notifier
       - vim-minimal
       - kmousetool
+      - kwrite
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
