@@ -39,6 +39,7 @@ modules:
       - xwaylandvideobridge
       - plasma-discover-notifier
       - vim-minimal
+      - kmousetool
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
