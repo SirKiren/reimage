@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-mkdir -p /var/tmp mkdir -p /var/roothome
+# mkdir -p /var/tmp mkdir -p /var/roothome
 
 set -euo pipefail
 
