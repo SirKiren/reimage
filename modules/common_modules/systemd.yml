@@ -1,0 +1,6 @@
+type: systemd
+system:
+  enabled:
+    - coolercontrold.service # Enabled (runs on system boot)
+user:
+  enabled:
