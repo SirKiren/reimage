@@ -32,6 +32,7 @@ modules:
       - coolercontrol
       - protontricks
       - ryzenadj
+      - binutils
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -44,7 +45,7 @@ modules:
       - vim-minimal
       - kmousetool
       - kwrite
-      #- yad
+      - yad
       - filelight
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
@@ -70,5 +71,7 @@ modules:
     system:
       enabled:
         - coolercontrold.service # Enabled (runs on system boot)
+  - type: script
+    scripts:
+        - initramfs.sh
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
-
