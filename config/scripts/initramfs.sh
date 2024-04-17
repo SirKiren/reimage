@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+mkdir -p /var/tmp mkdir -p /var/roothome
+
 set -euo pipefail
 
 rpm-ostree cliwrap install-to-root /
