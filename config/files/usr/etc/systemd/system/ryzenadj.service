@@ -1,0 +1,9 @@
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/ryzenadj --max-performance --stapm-limit=35000 --fast-limit=35000 --slow-limit=35000 --tctl-temp=80
+Restart=no
+
+[Install]
+WantedBy=default.target
