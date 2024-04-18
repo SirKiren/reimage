@@ -13,6 +13,7 @@ install:
   - protontricks
   - ryzenadj
   - binutils
+  - gamescope
 remove:
   - krfb
   - krfb-libs
