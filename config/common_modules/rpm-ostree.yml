@@ -23,6 +23,6 @@ remove:
   - kmousetool
   - kwrite
   - vim
-  - icoutils
-  - yad
+  #- icoutils
+  #- yad
   - filelight
