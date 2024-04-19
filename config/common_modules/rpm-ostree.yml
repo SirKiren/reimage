@@ -22,5 +22,7 @@ remove:
   - vim-minimal
   - kmousetool
   - kwrite
+  - vim
+  - icoutils
   #- yad
   - filelight
