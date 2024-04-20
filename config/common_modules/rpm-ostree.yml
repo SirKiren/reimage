@@ -1,7 +1,7 @@
 type: rpm-ostree
 repos:
   - https://copr.fedorainfracloud.org/coprs/codifryed/CoolerControl/repo/fedora-%OS_VERSION%/codifryed-CoolerControl-fedora-%OS_VERSION%.repo
-  - https://copr.fedorainfracloud.org/coprs/sukhmeet/RyzenAdj/repo/fedora-%OS_VERSION%/sukhmeet-RyzenAdj-fedora-%OS_VERSION%.repo
+  #- https://copr.fedorainfracloud.org/coprs/sukhmeet/RyzenAdj/repo/fedora-%OS_VERSION%/sukhmeet-RyzenAdj-fedora-%OS_VERSION%.repo
     
 install:
   - corectrl
@@ -11,7 +11,7 @@ install:
   - virt-manager
   - coolercontrol
   - protontricks
-  - ryzenadj
+  #- ryzenadj
   - binutils
   - gamescope
 remove:
