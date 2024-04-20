@@ -1,0 +1,7 @@
+type: rpm-ostree
+repos:
+  - https://copr.fedorainfracloud.org/coprs/sukhmeet/RyzenAdj/repo/fedora-%OS_VERSION%/sukhmeet-RyzenAdj-fedora-%OS_VERSION%.repo
+    
+install:
+  - ryzenadj
+remove:
