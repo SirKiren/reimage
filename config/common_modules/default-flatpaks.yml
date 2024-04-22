@@ -9,7 +9,8 @@ system:
     - org.freedesktop.Platform.ffmpeg-full/x86_64/23.08
     - net.davidotek.pupgui2
     - com.valvesoftware.Steam
-    - com.vscodium.codium 
+    - com.vscodium.codium
+    - com.protonvpn.www
         # - org.mozilla.firefox
   remove:
 user: 
