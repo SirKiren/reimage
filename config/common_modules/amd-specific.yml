@@ -1,7 +1,7 @@
 type: rpm-ostree
 repos:
-  - https://copr.fedorainfracloud.org/coprs/sukhmeet/RyzenAdj/repo/fedora-%OS_VERSION%/sukhmeet-RyzenAdj-fedora-%OS_VERSION%.repo
-    
+  # - https://copr.fedorainfracloud.org/coprs/sukhmeet/RyzenAdj/repo/fedora-%OS_VERSION%/sukhmeet-RyzenAdj-fedora-%OS_VERSION%.repo
+  - https://download.copr.fedorainfracloud.org/results/kylegospo/bazzite/fedora-$releasever-$basearch/  
 install:
   - ryzenadj
 remove:
