@@ -11,6 +11,7 @@ system:
     - com.valvesoftware.Steam
     - com.vscodium.codium
     - com.protonvpn.www
+    - org.previewqt.PreviewQt
         # - org.mozilla.firefox
   remove:
 user: 
