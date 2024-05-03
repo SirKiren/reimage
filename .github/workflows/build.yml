@@ -22,10 +22,11 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          - recipe.yml
-          - recipe-intel.yml
+          #- recipe.yml
+          #- recipe-intel.yml
           - recipe-amd.yml
           - recipe-surface.yml
+          - recipe-asus.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
