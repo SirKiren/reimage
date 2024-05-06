@@ -12,6 +12,7 @@ system:
     - com.vscodium.codium
     - com.protonvpn.www
     - org.previewqt.PreviewQt
+    - com.usebottles.bottles
         # - org.mozilla.firefox
   remove:
 user: 

@@ -12,4 +12,5 @@ remove:
   - ptyxis
   - waydroid
   - waydroid-selinux
-  - discover-overlay   
+  - discover-overlay
+  - qsynth
