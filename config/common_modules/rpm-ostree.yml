@@ -20,7 +20,7 @@ install:
   - qemu-kvm
   - virt-viewer
   - guestfs-tools
-  - python3-libguestfs
+  #- python3-libguestfs
   - virt-top
 remove:
   - krfb
