@@ -19,8 +19,8 @@ install:
   - libvirt-daemon-kvm
   - qemu-kvm
   - virt-viewer
-  - guestfs-tools
-  - python3-libguestfs
+  #- guestfs-tools
+  #- python3-libguestfs
   - virt-top
 remove:
   - krfb
