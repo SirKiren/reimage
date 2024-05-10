@@ -13,7 +13,8 @@ system:
     - com.protonvpn.www
     - org.previewqt.PreviewQt
     - com.usebottles.bottles
-        # - org.mozilla.firefox
+    - io.github.shiftey.Desktop
+    # - org.mozilla.firefox
   remove:
     - com.obsproject.Studio.Plugin.GStreamerVaapi
     - com.obsproject.Studio.Plugin.Gstreamer
