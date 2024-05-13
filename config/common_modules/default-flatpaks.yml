@@ -8,7 +8,7 @@ system:
   install:
     - org.freedesktop.Platform.ffmpeg-full/x86_64/23.08
     - net.davidotek.pupgui2
-    - com.valvesoftware.Steam
+    #- com.valvesoftware.Steam
     - com.vscodium.codium
     - com.protonvpn.www
     - org.previewqt.PreviewQt

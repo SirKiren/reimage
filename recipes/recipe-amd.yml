@@ -13,6 +13,7 @@ modules:
   - from-file: ../config/common_modules/files.yml
   - from-file: ../config/common_modules/rpm-ostree.yml
   - from-file: ../config/common_modules/amd-specific.yml
+  - from-file: ../config/common_modules/game-specific.yml
   - from-file: ../config/common_modules/default-flatpaks.yml
   - from-file: ../config/common_modules/systemd.yml
   - from-file: ../config/common_modules/initramfs.yml

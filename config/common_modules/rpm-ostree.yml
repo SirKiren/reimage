@@ -10,10 +10,10 @@ install:
   - neofetch
   - virt-manager
   - coolercontrol
-  - protontricks
+  #- protontricks
   #- ryzenadj
   - binutils
-  - gamescope
+  #- gamescope
   - virt-install
   - libvirt-daemon-config-network
   - libvirt-daemon-kvm
