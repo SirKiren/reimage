@@ -7,7 +7,7 @@ install:
   - corectrl
   - kcalc
   - grubby
-  - neofetch
+  - fastfetch
   - virt-manager
   - coolercontrol
   #- protontricks
