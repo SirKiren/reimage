@@ -22,6 +22,9 @@ install:
   #- guestfs-tools
   #- python3-libguestfs
   - virt-top
+  - blivet-gui
+  - policycoreutils-gui
+  - setroubleshoot-server
 remove:
   - krfb
   - krfb-libs
