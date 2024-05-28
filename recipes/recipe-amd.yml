@@ -4,14 +4,14 @@ name: reimage-amd
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bazzite
+base-image: ghcr.io/ublue-os/kinoite
 image-version: 40 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
   - from-file: ../config/common_modules/files.yml
-  - from-file: ../config/common_modules/rpm-bazzite.yml
+  #- from-file: ../config/common_modules/rpm-bazzite.yml
   - from-file: ../config/common_modules/rpm-ostree.yml
   - from-file: ../config/common_modules/amd-specific.yml
   - from-file: ../config/common_modules/steam.yml
