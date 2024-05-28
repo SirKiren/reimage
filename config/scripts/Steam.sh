@@ -62,27 +62,27 @@ rpm-ostree install \
         obs-vkcapture.x86_64 \
         obs-vkcapture.i686 \
         mangohud.x86_64 \
-        mangohud.i686 && \
-    if grep -q "kinoite" <<< "${BASE_IMAGE_NAME}"; then \
-        rpm-ostree override remove \
-            gamemode \
-    ; else \
-        rpm-ostree override remove \
-            gamemode && \
-        rpm-ostree override remove \
-            gnome-shell-extension-gamemode \
-            || true \
-    ; fi && \
-    sed -i 's@\[Desktop Entry\]@\[Desktop Entry\]\nNoDisplay=true@g' /usr/share/applications/winetricks.desktop && \
-    curl -Lo /tmp/latencyflex.tar.xz $(curl https://api.github.com/repos/ishitatsuyuki/LatencyFleX/releases/latest | jq -r '.assets[] | select(.name| test(".*.tar.xz$")).browser_download_url') && \
-    mkdir -p /tmp/latencyflex && \
-    tar --no-same-owner --no-same-permissions --no-overwrite-dir --strip-components 1 -xvf /tmp/latencyflex.tar.xz -C /tmp/latencyflex && \
-    rm -f /tmp/latencyflex.tar.xz && \
-    cp -r /tmp/latencyflex/wine/usr/lib/wine/* /usr/lib64/wine/ && \
-    rm -rf /tmp/latencyflex && \
-    curl -Lo /usr/bin/latencyflex https://raw.githubusercontent.com/KyleGospo/LatencyFleX-Installer/main/install.sh && \
-    chmod +x /usr/bin/latencyflex && \
-    sed -i 's@/usr/lib/wine/@/usr/lib64/wine/@g' /usr/bin/latencyflex && \
-    sed -i 's@"dxvk.conf"@"/usr/share/latencyflex/dxvk.conf"@g' /usr/bin/latencyflex && \
-    chmod +x /usr/bin/latencyflex && \
+        mangohud.i686 #&& \
+#    if grep -q "kinoite" <<< "${BASE_IMAGE_NAME}"; then \
+#        rpm-ostree override remove \
+#            gamemode \
+#    ; else \
+#        rpm-ostree override remove \
+#            gamemode && \
+#        rpm-ostree override remove \
+#            gnome-shell-extension-gamemode \
+#            || true \
+#    ; fi && \
+#    sed -i 's@\[Desktop Entry\]@\[Desktop Entry\]\nNoDisplay=true@g' /usr/share/applications/winetricks.desktop && \
+#    curl -Lo /tmp/latencyflex.tar.xz $(curl https://api.github.com/repos/ishitatsuyuki/LatencyFleX/releases/latest | jq -r '.assets[] | select(.name| test(".*.tar.xz$")).browser_download_url') && \
+#    mkdir -p /tmp/latencyflex && \
+#    tar --no-same-owner --no-same-permissions --no-overwrite-dir --strip-components 1 -xvf /tmp/latencyflex.tar.xz -C /tmp/latencyflex && \
+#    rm -f /tmp/latencyflex.tar.xz && \
+#    cp -r /tmp/latencyflex/wine/usr/lib/wine/* /usr/lib64/wine/ && \
+#    rm -rf /tmp/latencyflex && \
+#    curl -Lo /usr/bin/latencyflex https://raw.githubusercontent.com/KyleGospo/LatencyFleX-Installer/main/install.sh && \
+#    chmod +x /usr/bin/latencyflex && \
+#    sed -i 's@/usr/lib/wine/@/usr/lib64/wine/@g' /usr/bin/latencyflex && \
+#    sed -i 's@"dxvk.conf"@"/usr/share/latencyflex/dxvk.conf"@g' /usr/bin/latencyflex && \
+#    chmod +x /usr/bin/latencyflex && \
     #ostree container commit
