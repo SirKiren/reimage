@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+# mkdir -p /var/tmp mkdir -p /var/roothome
 # Install Steam & Lutris, plus supporting packages
 # Remove Feral gamemode, System76 Scheduler supersedes this
 rpm-ostree install \
