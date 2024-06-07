@@ -11,6 +11,7 @@ remove:
   # "firefox" is the main package, "firefox-langpacks" is a dependency
   # - firefox
   # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+  - steamdeck-kde-presets-desktop
   - ptyxis
   - waydroid
   - waydroid-selinux
