@@ -18,4 +18,5 @@ modules:
   - from-file: ../config/common_modules/default-flatpaks.yml
   - from-file: ../config/common_modules/systemd.yml
   - from-file: ../config/common_modules/initramfs.yml
+  - type: yafti
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
