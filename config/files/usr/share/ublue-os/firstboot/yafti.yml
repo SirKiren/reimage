@@ -81,12 +81,14 @@ screens:
           description: System applications for all desktop environments.
           default: true
           packages:
-            - Deja Dup Backups: org.gnome.DejaDup
+            #- Deja Dup Backups: org.gnome.DejaDup
             - Fedora Media Writer: org.fedoraproject.MediaWriter
             - Preview QT: org.previewqt.PreviewQt
             - ffmpeg: org.freedesktop.Platform.ffmpeg-full/x86_64/23.08
             #- Flatseal (Permission Manager): com.github.tchx84.Flatseal
             #- Font Downloader: org.gustavoperedo.FontDownloader
+            - proton vpn: com.protonvpn.www
+            - VLC: org.videolan.VLC
         Web Browsers:
           description: Flatpak Web Browsers.
           default: false
@@ -99,6 +101,9 @@ screens:
           packages:
             - Bottles: com.usebottles.bottles
             - Heroic Games Launcher: com.heroicgameslauncher.hgl
+            - Lutris: net.lutris.Lutris
+            - DOSBox Staging: io.github.dosbox-staging
+            - GeForce NOW Electron: io.github.hmlendea.geforcenow-electron
             - Steam: com.valvesoftware.Steam
             - Gamescope (Utility): org.freedesktop.Platform.VulkanLayer.gamescope
             - MangoHUD (Utility): org.freedesktop.Platform.VulkanLayer.MangoHud//22.08
@@ -107,6 +112,29 @@ screens:
             - Boxtron (utility): com.valvesoftware.Steam.CompatibilityTool.Boxtron 
             - Protontricks (utility): com.valvesoftware.Steam.Utility.protontricks 
             - Proton Updater for Steam: net.davidotek.pupgui2
+        Emulation:
+          description: Play games like it's 1972
+          default: false
+          packages:
+          - Cemu: info.cemu.Cemu
+          - Dolphin: org.DolphinEmu.dolphin-emu
+          - DuckStation: org.duckstation.DuckStation
+          - MAME: org.mamedev.MAME
+          - melonDS: net.kuribo64.melonDS
+          - mGBA: io.mgba.mGBA
+          - PCSX2: net.pcsx2.PCSX2
+          - Parallel Launcher: ca.parallel_launcher.ParallelLauncher
+          - Pegasus: org.pegasus_frontend.Pegasus
+          - PPSSPP: org.ppsspp.PPSSPP
+          - RetroArch: org.libretro.RetroArch
+          - RetroDECK: net.retrodeck.retrodeck
+          - Rosalie's Mupen GUI: com.github.Rosalie241.RMG
+          - RPCS3: net.rpcs3.RPCS3
+          - Ryujinx: org.ryujinx.Ryujinx
+          - ScummVM: org.scummvm.ScummVM
+          - Snes9x: com.snes9x.Snes9x
+          - Stella: io.github.stella_emu.Stella
+          - xemu: app.xemu.xemu
         Office:
           description: Boost your productivity.
           default: false
@@ -118,12 +146,17 @@ screens:
             - Xournal++: com.github.xournalpp.xournalpp
             - Standard Notes: org.standardnotes.standardnotes
             - Thunderbird Email: org.mozilla.Thunderbird
+            - GIMP: org.gimp.GIMP
+            - Inkscape: org.inkscape.Inkscape
+            - Kdenlive: org.kde.kdenlive
+            - Krita: org.kde.krita
         Development:
           description: Development software.
           default: false
           packages:
             - vscodium: com.vscodium.codium
             - Github Desktop: io.github.shiftey.Desktop
+            - Blender: org.blender.Blender
             #- Gstreamer for OBS: com.obsproject.Studio.Plugin.Gstreamer
             #- Gstreamer VAAPI for OBS: com.obsproject.Studio.Plugin.GStreamerVaapi
             #- Boatswain for Streamdeck: com.feaneron.Boatswain
@@ -134,11 +167,13 @@ screens:
       title: "All done!"
       icon: "/path/to/icon"
       links:
-        #- "Install More Applications":
-        #    run: /usr/bin/gnome-software
+        - "Install More Applications":
+            run: /usr/bin/plasma-discover
         - "Website":
             run: /usr/bin/xdg-open https://ublue.it
         - "Join the Discord Community":
             run: /usr/bin/xdg-open https://discord.gg/XjG48C7VHx
+        - "Reboot now":
+            run: systemctl reboot
       description: |
         Thanks for trying uBlue, we hope you enjoy it!
