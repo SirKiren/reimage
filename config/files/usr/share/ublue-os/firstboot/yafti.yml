@@ -110,7 +110,7 @@ screens:
             - SteamTinkerLaunch (Utility): com.valvesoftware.Steam.Utility.steamtinkerlaunch
             - vkBasalt (utility): org.freedesktop.Platform.VulkanLayer.vkBasalt 
             - Boxtron (utility): com.valvesoftware.Steam.CompatibilityTool.Boxtron 
-            - Protontricks (utility): com.valvesoftware.Steam.Utility.protontricks 
+            - Protontricks (utility): com.github.Matoking.protontricks 
             - Proton Updater for Steam: net.davidotek.pupgui2
         Emulation:
           description: Play games like it's 1972

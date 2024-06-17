@@ -26,10 +26,10 @@ jobs:
           #- recipe.yml
           #- recipe-intel.yml
           - recipe-amd.yml
-          - recipe-amd-bazzite.yml          
+          #- recipe-amd-bazzite.yml          
           - recipe-surface.yml
           - recipe-asus.yml
-          - recipe-asus-bazzite.yml
+          #- recipe-asus-bazzite.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
