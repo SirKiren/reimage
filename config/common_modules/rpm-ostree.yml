@@ -31,7 +31,7 @@ remove:
   - xwaylandvideobridge
   - plasma-discover-notifier
   - vim-minimal
-  - kmousetool
+  #- kmousetool
   - kwrite
   - vim-enhanced
   #- vim
