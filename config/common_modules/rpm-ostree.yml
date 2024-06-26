@@ -23,8 +23,8 @@ install:
   #- python3-libguestfs
   - virt-top
   - blivet-gui
-  - policycoreutils-gui
-  - setroubleshoot-server
+  #- policycoreutils-gui
+  #- setroubleshoot-server
 remove:
   - krfb
   - krfb-libs
