@@ -4,7 +4,6 @@ repos:
   #- https://copr.fedorainfracloud.org/coprs/sukhmeet/RyzenAdj/repo/fedora-%OS_VERSION%/sukhmeet-RyzenAdj-fedora-%OS_VERSION%.repo
     
 install:
-  - corectrl
   - kcalc
   - grubby
   - fastfetch
