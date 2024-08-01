@@ -15,6 +15,7 @@ modules:
   - from-file: ../config/common_modules/rpm-ostree.yml
   - from-file: ../config/common_modules/ryzenadj.yml
   - from-file: ../config/common_modules/amd-specific.yml
+  - from-file: ../config/common_modules/virtualization.yml
   #- from-file: ../config/common_modules/steam.yml
   #- from-file: ../config/common_modules/game-specific.yml
   - from-file: ../config/common_modules/default-flatpaks.yml

@@ -7,20 +7,20 @@ install:
   - kcalc
   - grubby
   - fastfetch
-  - virt-manager
+  #- virt-manager
   - coolercontrol
   #- protontricks
   #- ryzenadj
   - binutils
   #- gamescope
-  - virt-install
-  - libvirt-daemon-config-network
-  - libvirt-daemon-kvm
-  - qemu-kvm
-  - virt-viewer
+  #- virt-install
+  #- libvirt-daemon-config-network
+  #- libvirt-daemon-kvm
+  #- qemu-kvm
+  #- virt-viewer
   #- guestfs-tools
   #- python3-libguestfs
-  - virt-top
+  #- virt-top
   - blivet-gui
   #- policycoreutils-gui
   #- setroubleshoot-server

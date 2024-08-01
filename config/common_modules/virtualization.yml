@@ -1,0 +1,13 @@
+type: rpm-ostree
+repos:
+  
+install:
+  - virt-manager
+  - virt-install
+  - libvirt-daemon-config-network
+  - libvirt-daemon-kvm
+  - qemu-kvm
+  - virt-viewer
+  #- guestfs-tools
+  #- python3-libguestfs
+  - virt-top
