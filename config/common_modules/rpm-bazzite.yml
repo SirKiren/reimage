@@ -17,5 +17,5 @@ remove:
   - waydroid-selinux
   - discover-overlay
   #- qsynth
-  - system76-scheduler
+  #- system76-scheduler
   #- steam
