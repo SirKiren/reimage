@@ -8,4 +8,4 @@ install:
   #- mesa-va-drivers
   #- steam
 remove:
-  - fedora-bookmarks
+  #- fedora-bookmarks
