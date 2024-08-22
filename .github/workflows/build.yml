@@ -28,7 +28,7 @@ jobs:
           - recipe-amd.yml
           - recipe-bazzite-ally.yml
           #- recipe-amd-bazzite.yml          
-          - recipe-surface.yml
+          #- recipe-surface.yml
           - recipe-asus.yml
           #- recipe-asus-bazzite.yml
     steps:
