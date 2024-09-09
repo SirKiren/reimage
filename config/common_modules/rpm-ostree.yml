@@ -21,7 +21,7 @@ install:
   #- guestfs-tools
   #- python3-libguestfs
   #- virt-top
-  - blivet-gui
+  #- blivet-gui
   #- policycoreutils-gui
   #- setroubleshoot-server
 remove:
@@ -37,4 +37,3 @@ remove:
   - icoutils
   #- yad
   - filelight
-  - python3-typer+all
