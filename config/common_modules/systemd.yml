@@ -1,7 +1,7 @@
 type: systemd
 system:
   enabled:
-    - coolercontrold.service # Enabled (runs on system boot)
+    #- coolercontrold.service # Enabled (runs on system boot)
   disabled:
     #- com.system76.Scheduler.service
 
