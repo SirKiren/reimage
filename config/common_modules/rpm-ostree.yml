@@ -37,3 +37,4 @@ remove:
   - icoutils
   #- yad
   - filelight
+  - python3-typer+all
