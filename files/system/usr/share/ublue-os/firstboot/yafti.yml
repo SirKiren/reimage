@@ -57,7 +57,7 @@ screens:
           description: Core system applications for the KDE desktop environment.
           default: false
           packages:
-            #- Calculator: org.gnome.Calculator
+            - Calculator: org.kde.kcalc
             #- Calendar: org.gnome.Calendar
             #- Camera: org.gnome.Snapshot
             #- Characters: org.gnome.Characters

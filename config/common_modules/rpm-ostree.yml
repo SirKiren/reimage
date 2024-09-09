@@ -4,14 +4,14 @@ repos:
   #- https://copr.fedorainfracloud.org/coprs/sukhmeet/RyzenAdj/repo/fedora-%OS_VERSION%/sukhmeet-RyzenAdj-fedora-%OS_VERSION%.repo
     
 install:
-  - kcalc
-  - grubby
+  #- kcalc
+  #- grubby
   - fastfetch
   #- virt-manager
   - coolercontrol
   #- protontricks
   #- ryzenadj
-  - binutils
+  #- binutils
   #- gamescope
   #- virt-install
   #- libvirt-daemon-config-network
