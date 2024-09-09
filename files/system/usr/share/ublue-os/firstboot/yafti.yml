@@ -72,9 +72,9 @@ screens:
             - Image Viewer: org.kde.gwenview
             #- Logs: org.gnome.Logs
             #- Maps: org.gnome.Maps
-            #- Photos (Organizer): org.gnome.Photos
+            - Photos (digikam): org.kde.digikam
             #- Sushi (Nautilus Previewer): org.gnome.NautilusPreviewer
-            #- Text Editor: org.gnome.TextEditor
+            - Latex Editor: org.kde.kile
             - Videos (Player): org.kde.haruna
             #- Weather: org.gnome.Weather
         System Apps:
