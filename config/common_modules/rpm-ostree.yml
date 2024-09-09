@@ -8,7 +8,7 @@ install:
   #- grubby
   - fastfetch
   #- virt-manager
-  - coolercontrol
+  #- coolercontrol
   #- protontricks
   #- ryzenadj
   #- binutils
