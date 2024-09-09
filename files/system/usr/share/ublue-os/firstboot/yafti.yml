@@ -95,6 +95,7 @@ screens:
           packages:
             - Mozilla Firefox: org.mozilla.firefox          
             - Chromium: io.github.ungoogled_software.ungoogled_chromium
+            - Falkon: org.kde.falkon
         Gaming:
           description: "Gaming applications"
           default: false
