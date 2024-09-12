@@ -25,6 +25,7 @@ install:
   - policycoreutils-gui
   - setroubleshoot
   - setools-gui
+  - kjournald
 remove:
   - krfb
   - krfb-libs
