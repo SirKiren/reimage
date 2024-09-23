@@ -27,7 +27,7 @@ system:
     #- io.github.fastrizwaan.WineZGUI
     - io.github.flattool.Warehouse
     #- it.mijorus.gearlever
-    - org.fkoehler.Ktailctl
+    - org.fkoehler.KTailctl
     - org.gnome.DejaDup
     - io.github.dvlv.boxbuddyrs
     - org.gnome.World.PikaBackup
