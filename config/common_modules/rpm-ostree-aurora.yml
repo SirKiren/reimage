@@ -1,0 +1,41 @@
+type: rpm-ostree
+repos:
+  - https://copr.fedorainfracloud.org/coprs/codifryed/CoolerControl/repo/fedora-%OS_VERSION%/codifryed-CoolerControl-fedora-%OS_VERSION%.repo
+  #- https://copr.fedorainfracloud.org/coprs/sukhmeet/RyzenAdj/repo/fedora-%OS_VERSION%/sukhmeet-RyzenAdj-fedora-%OS_VERSION%.repo
+    
+install:
+  #- kcalc
+  #- grubby
+  - fastfetch
+  #- virt-manager
+  #- coolercontrol
+  #- protontricks
+  #- ryzenadj
+  #- binutils
+  #- gamescope
+  #- virt-install
+  #- libvirt-daemon-config-network
+  #- libvirt-daemon-kvm
+  #- qemu-kvm
+  #- virt-viewer
+  #- guestfs-tools
+  #- python3-libguestfs
+  #- virt-top
+  #- blivet-gui
+  - policycoreutils-gui
+  - setroubleshoot
+  - setools-gui
+  - kjournald
+remove:
+  #- krfb
+  #- krfb-libs
+  - xwaylandvideobridge
+  - plasma-discover-notifier
+  - vim-minimal
+  #- kmousetool
+  - kwrite
+  - vim-enhanced
+  #- vim
+  - icoutils
+  #- yad
+  - filelight
