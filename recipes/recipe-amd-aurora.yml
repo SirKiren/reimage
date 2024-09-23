@@ -18,7 +18,7 @@ modules:
   #- from-file: ../config/common_modules/virtualization.yml
   #- from-file: ../config/common_modules/steam.yml
   #- from-file: ../config/common_modules/game-specific.yml
-  - from-file: ../config/common_modules/default-flatpaks.yml
+  - from-file: ../config/common_modules/default-flatpaks-aurora.yml
   - from-file: ../config/common_modules/systemd.yml
   - from-file: ../config/common_modules/initramfs.yml
   - type: yafti
