@@ -26,6 +26,7 @@ jobs:
           #- recipe.yml
           #- recipe-intel.yml
           - recipe-amd.yml
+          - recipe-amd-aurora.yml
           - recipe-bazzite-ally.yml
           #- recipe-amd-bazzite.yml          
           #- recipe-surface.yml
