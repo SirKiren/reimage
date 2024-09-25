@@ -34,7 +34,7 @@ system:
     - org.gnome.World.PikaBackup
     - org.mozilla.Thunderbird
     - io.missioncenter.MissionCenter
-    -org.kde.filelight
+    - org.kde.filelight
 user: 
   # If no repo information is specified, Flathub will be used by default
   #repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
