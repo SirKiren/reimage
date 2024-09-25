@@ -23,6 +23,7 @@ system:
     #- org.kde.gwenview
     - org.kde.haruna
     #- org.kde.okular
+    - org.kde.kontact
     - com.github.tchx84.Flatseal
     #- io.github.fastrizwaan.WineZGUI
     - io.github.flattool.Warehouse
@@ -33,6 +34,7 @@ system:
     - org.gnome.World.PikaBackup
     - org.mozilla.Thunderbird
     - io.missioncenter.MissionCenter
+    -org.kde.filelight
 user: 
   # If no repo information is specified, Flathub will be used by default
   #repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
