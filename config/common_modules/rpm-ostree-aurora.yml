@@ -31,7 +31,7 @@ remove:
   #- krfb-libs
   - xwaylandvideobridge
   - plasma-discover-notifier
-  - vim-minimal
+  #- vim-minimal
   #- kmousetool
   - kwrite
   #- vim-enhanced
