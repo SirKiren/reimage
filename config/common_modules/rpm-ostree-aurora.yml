@@ -34,7 +34,7 @@ remove:
   - vim-minimal
   #- kmousetool
   - kwrite
-  - vim-enhanced
+  #- vim-enhanced
   #- vim
   - icoutils
   #- yad
