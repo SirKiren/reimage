@@ -25,12 +25,12 @@ jobs:
           # !! Add your recipes here 
           #- recipe.yml
           #- recipe-intel.yml
-          - recipe-amd.yml
+          #- recipe-amd.yml
           - recipe-amd-aurora.yml
           - recipe-bazzite-ally.yml
           #- recipe-amd-bazzite.yml          
           #- recipe-surface.yml
-          - recipe-asus.yml
+          #- recipe-asus.yml
           - recipe-asus-aurora.yml
           #- recipe-asus-bazzite.yml
     steps:
