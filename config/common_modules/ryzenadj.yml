@@ -7,5 +7,5 @@ install:
   - ryzenadj
   #- mesa-va-drivers
   #- steam
-remove:
+# remove:
   #- fedora-bookmarks

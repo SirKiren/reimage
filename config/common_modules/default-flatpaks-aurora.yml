@@ -5,7 +5,7 @@ system:
   repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
   repo-name: flathub
   repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
-  install:
+  # install:
     #- org.freedesktop.Platform.ffmpeg-full/x86_64/23.08
     #- net.davidotek.pupgui2
     #- com.valvesoftware.Steam
@@ -35,7 +35,7 @@ system:
     - org.mozilla.Thunderbird
     - io.missioncenter.MissionCenter
     - org.kde.filelight
-user: 
+# user:
   # If no repo information is specified, Flathub will be used by default
   #repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
   # repo-name: flathub-user
