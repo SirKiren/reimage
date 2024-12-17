@@ -19,8 +19,9 @@ modules:
   #- from-file: ../config/common_modules/steam.yml
   #- from-file: ../config/common_modules/game-specific.yml
   - from-file: ../config/common_modules/default-flatpaks-aurora.yml
-  - from-file: ../config/common_modules/systemd.yml
-  - from-file: ../config/common_modules/initramfs.yml
+  #- from-file: ../config/common_modules/systemd.yml
+  - type: initramfs
+  #- from-file: ../config/common_modules/initramfs.yml
   - type: yafti
-    custom-flatpaks:
+  #  custom-flatpaks:
   - type: signing # this sets up the proper policy & signing files for signed images to work fully

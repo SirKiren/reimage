@@ -1,5 +1,5 @@
 type: rpm-ostree
-repos:
+#repos:
 
 install:
   - firefox
