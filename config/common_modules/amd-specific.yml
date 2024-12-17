@@ -1,5 +1,5 @@
 type: rpm-ostree
-repos:
+# repos:
   # - https://copr.fedorainfracloud.org/coprs/sukhmeet/RyzenAdj/repo/fedora-%OS_VERSION%/sukhmeet-RyzenAdj-fedora-%OS_VERSION%.repo
   #- https://copr.fedorainfracloud.org/coprs/kylegospo/bazzite/repo/fedora-%OS_VERSION%/kylegospo-bazzite-fedora-%OS_VERSION%.repo
 install:
@@ -7,4 +7,4 @@ install:
   #- ryzenadj
   #- mesa-va-drivers
   #- steam
-remove:
+# remove:
