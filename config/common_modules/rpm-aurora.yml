@@ -1,6 +1,5 @@
 type: rpm-ostree
-repos:
-  
+ 
 install:
   - kjournald
 remove:
