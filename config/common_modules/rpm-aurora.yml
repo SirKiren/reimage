@@ -1,0 +1,12 @@
+type: rpm-ostree
+repos:
+  
+install:
+  - kjournald
+remove:
+  - xwaylandvideobridge
+  - plasma-discover-notifier
+  - kwrite
+  - icoutils
+  - filelight
+  - skanpage
