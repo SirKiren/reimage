@@ -63,7 +63,7 @@ screens:
             #- Characters: org.gnome.Characters
             #- Clocks: org.gnome.clocks
             #- Connections: org.gnome.Connections
-            #- Contacts: org.gnome.Contacts
+            - Contacts: org.kde.kontact
             - Disk Usage Analyzer: org.kde.filelight
             #- Document Scanner: org.gnome.SimpleScan
             - Document Viewer: org.kde.okular
@@ -73,7 +73,6 @@ screens:
             #- Logs: org.gnome.Logs
             #- Maps: org.gnome.Maps
             - Photos (digikam): org.kde.digikam
-            #- Sushi (Nautilus Previewer): org.gnome.NautilusPreviewer
             - Latex Editor: org.kde.kile
             - Videos (Player): org.kde.haruna
             #- Weather: org.gnome.Weather
@@ -85,8 +84,6 @@ screens:
             - Fedora Media Writer: org.fedoraproject.MediaWriter
             - Preview QT: org.previewqt.PreviewQt
             - ffmpeg: org.freedesktop.Platform.ffmpeg-full/x86_64/23.08
-            #- Flatseal (Permission Manager): com.github.tchx84.Flatseal
-            #- Font Downloader: org.gustavoperedo.FontDownloader
             - proton vpn: com.protonvpn.www
             - VLC: org.videolan.VLC
         Web Browsers:
@@ -141,9 +138,8 @@ screens:
           default: false
           packages:
             - LibreOffice: org.libreoffice.LibreOffice
-            #- OnlyOffice: org.onlyoffice.desktopeditors
-            #- Obsidian: md.obsidian.Obsidian
-            #- Slack: com.slack.Slack
+            - OnlyOffice: org.onlyoffice.desktopeditors
+            - Obsidian: md.obsidian.Obsidian
             - Xournal++: com.github.xournalpp.xournalpp
             - Standard Notes: org.standardnotes.standardnotes
             - Thunderbird Email: org.mozilla.Thunderbird
@@ -158,10 +154,6 @@ screens:
             - vscodium: com.vscodium.codium
             - Github Desktop: io.github.shiftey.Desktop
             - Blender: org.blender.Blender
-            #- Gstreamer for OBS: com.obsproject.Studio.Plugin.Gstreamer
-            #- Gstreamer VAAPI for OBS: com.obsproject.Studio.Plugin.GStreamerVaapi
-            #- Boatswain for Streamdeck: com.feaneron.Boatswain
-
   final-screen:
     source: yafti.screen.title
     values:
