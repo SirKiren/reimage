@@ -13,6 +13,6 @@ modules:
   - from-file: ../config/common_modules/files.yml
   - from-file: ../config/common_modules/rpm-aurora.yml
   - from-file: ../config/common_modules/default-flatpaks-aurora.yml
-  - type: initramfs
+  #- type: initramfs
   - type: yafti
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
