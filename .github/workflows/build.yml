@@ -33,7 +33,7 @@ jobs:
           #- recipe-amd-bazzite.yml          
           #- recipe-surface.yml
           #- recipe-asus.yml
-          - recipe-asus-aurora.yml
+          #- recipe-asus-aurora.yml
           #- recipe-asus-bazzite.yml
     steps:
        # the build is fully handled by the reusable github action
