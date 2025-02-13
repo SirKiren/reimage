@@ -26,7 +26,7 @@ system:
     - org.kde.kontact
     - com.github.tchx84.Flatseal
     #- io.github.fastrizwaan.WineZGUI
-    - io.github.flattool.Warehouse
+    #- io.github.flattool.Warehouse
     #- it.mijorus.gearlever
     - org.fkoehler.KTailctl
     - org.gnome.DejaDup
