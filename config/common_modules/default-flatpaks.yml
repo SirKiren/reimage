@@ -5,25 +5,28 @@ system:
   repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
   repo-name: flathub
   repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
-#  install:
+  install:
     #- org.freedesktop.Platform.ffmpeg-full/x86_64/23.08
     #- net.davidotek.pupgui2
     #- com.valvesoftware.Steam
     #- com.vscodium.codium
-    #- com.protonvpn.www
+    - com.protonvpn.www
     #- org.previewqt.PreviewQt
-    #- com.usebottles.bottles
-    #- io.github.shiftey.Desktop
+    - com.usebottles.bottles
+    - io.github.shiftey.Desktop
     # - org.mozilla.firefox
-#  remove:
+  remove:
     #- com.obsproject.Studio.Plugin.GStreamerVaapi
     #- com.obsproject.Studio.Plugin.Gstreamer
     #- com.obsproject.Studio.Plugin.OBSVkCapture
     #- org.kde.filelight
     #- org.kde.gwenview
-    #- org.kde.haruna
+    - org.kde.haruna
     #- org.kde.okular
-    #- com.github.tchx84.Flatseal
+    - com.github.tchx84.Flatseal
+    - io.missioncenter.MissionCenter
+    - org.kde.kweather
+    - org.fkoehler.KTailctl
     #- io.github.fastrizwaan.WineZGUI
     #- io.github.flattool.Warehouse
     #- it.mijorus.gearlever
