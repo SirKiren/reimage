@@ -30,6 +30,7 @@ jobs:
           - recipe-aurora.yml
           - recipe-amd-aurora.yml
           - recipe-bazzite-ally.yml
+          - recipe-bazzite-dx.yml
           #- recipe-amd-bazzite.yml          
           #- recipe-surface.yml
           #- recipe-asus.yml
