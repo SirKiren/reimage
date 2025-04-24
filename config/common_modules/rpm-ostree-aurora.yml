@@ -40,4 +40,4 @@ remove:
   - icoutils
   #- yad
   - filelight
-  - skanpage
+  #- skanpage
