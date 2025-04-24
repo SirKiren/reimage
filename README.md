@@ -13,7 +13,7 @@ To rebase an existing atomic Fedora installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/SirKiren/reimage:latest
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/sirkiren/reimage:latest
   ```
 - Reboot to complete the rebase:
   ```
