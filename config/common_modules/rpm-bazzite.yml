@@ -5,7 +5,7 @@ install:
   #- firefox
   #- firefox-langpacks
   - gamescope
-  - protontricks
+  # - protontricks
   - konsole
   - policycoreutils-gui
   - setroubleshoot
