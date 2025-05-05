@@ -24,18 +24,9 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          #- recipe.yml
-          #- recipe-intel.yml
-          #- recipe-amd.yml
           - recipe-aurora.yml
-          - recipe-amd-aurora.yml
           - recipe-bazzite-ally.yml
           - recipe-bazzite-dx.yml
-          #- recipe-amd-bazzite.yml          
-          #- recipe-surface.yml
-          #- recipe-asus.yml
-          #- recipe-asus-aurora.yml
-          #- recipe-asus-bazzite.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
