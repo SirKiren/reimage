@@ -24,7 +24,7 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here 
-          - recipe-aurora.yml
+          # - recipe-aurora.yml
           - recipe-bazzite-ally.yml
           - recipe-bazzite-dx.yml
     steps:
