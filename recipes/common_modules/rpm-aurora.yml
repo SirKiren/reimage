@@ -1,11 +1,13 @@
-type: rpm-ostree
+type: dnf
  
 install:
-  - kjournald
+  packages:
+    - kjournald
 remove:
-  - xwaylandvideobridge
-  - plasma-discover-notifier
-  - kwrite
-  - icoutils
-  - filelight
-  #- skanpage
+  packages:
+    - xwaylandvideobridge
+    - plasma-discover-notifier
+    - kwrite
+    - icoutils
+    - filelight
+    #- skanpage
