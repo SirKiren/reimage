@@ -4,11 +4,8 @@ repos:
     nonfree: negativo17
 install:
   packages:
-    - from-repo: negativo17 
-      install-weak-deps: false
-      packages:
-        - steam
-        - kernel-modules-extra
+    - steam
+    - kernel-modules-extra
     - kjournald
 
 remove:
