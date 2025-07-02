@@ -4,11 +4,13 @@ repos:
     nonfree: negativo17
 install:
   packages:
-    - install-weak-deps: false
-  packages:
+    - repo: negativo17 
+      install-weak-deps: false
+      packages:
+        - steam
+        - kernel-modules-extra
     - kjournald
-    - steam
-    - kernel-modules-extra
+
 remove:
   packages:
     - xwaylandvideobridge
