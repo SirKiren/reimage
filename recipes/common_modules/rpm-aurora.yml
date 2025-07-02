@@ -4,7 +4,7 @@ repos:
     nonfree: negativo17
 install:
   packages:
-    - repo: negativo17 
+    - from-repo: negativo17 
       install-weak-deps: false
       packages:
         - steam
