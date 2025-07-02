@@ -1,4 +1,5 @@
 type: dnf
+
 repos:
     nonfree: negativo17
 install:
