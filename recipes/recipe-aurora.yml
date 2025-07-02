@@ -12,7 +12,7 @@ image-version: latest # latest is also supported if you want new updates ASAP
 modules:
   - from-file: common_modules/files.yml
   - from-file: common_modules/rpm-aurora.yml
-  - from-file: common_modules/rpm-steam.yml
+  # - from-file: common_modules/rpm-steam.yml
   - from-file: common_modules/default-flatpaks-aurora.yml
   #- type: initramfs
   #- type: yafti

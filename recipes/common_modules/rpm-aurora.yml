@@ -1,8 +1,13 @@
 type: dnf
- 
+repos:
+    nonfree: negativo17
 install:
   packages:
+    - install-weak-deps: false
+  packages:
     - kjournald
+    - steam
+    - kernel-modules-extra
 remove:
   packages:
     - xwaylandvideobridge
