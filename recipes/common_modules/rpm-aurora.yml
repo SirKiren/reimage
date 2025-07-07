@@ -4,6 +4,7 @@ repos:
     nonfree: negativo17
     copr:
     - bazzite-org/bazzite
+    - bazzite-org/bazzite-multilib
 install:
   packages:
     - steam
