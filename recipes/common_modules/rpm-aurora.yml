@@ -5,8 +5,8 @@ repos:
     copr:
     - bazzite-org/bazzite
     - bazzite-org/bazzite-multilib
-    enable:
-    - terra
+    files:
+    - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
 install:
   packages:
     - steam
