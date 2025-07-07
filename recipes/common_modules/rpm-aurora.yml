@@ -11,7 +11,9 @@ install:
   packages:
     - steam
     - steam-devices
-    - steam-device-rules
+    - repo: terra
+      Packages:
+      - steam-device-rules
     - gamescope
     - gamescope-session-steam
     - gamescope-session-plus
