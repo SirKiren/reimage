@@ -8,12 +8,11 @@ repos:
     files:
     - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
 install:
+  skip-unavailable: true
   packages:
     - steam
     - steam-devices
-    - repo: terra
-      Packages:
-      - steam-device-rules
+    - steam-device-rules
     - gamescope
     - gamescope-session-steam
     - gamescope-session-plus
