@@ -5,6 +5,12 @@ repos:
 install:
   packages:
     - steam
+    - steam-devices
+    - steam-device-rules
+    - gamescope
+    - gamescope-session-steam
+    - gamescope-session-plus
+    - gamescope-shaders
     - kernel-modules-extra
     - kjournald
 
