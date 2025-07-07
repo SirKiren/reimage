@@ -5,6 +5,8 @@ repos:
     copr:
     - bazzite-org/bazzite
     - bazzite-org/bazzite-multilib
+    enable:
+    - terra
 install:
   packages:
     - steam
