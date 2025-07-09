@@ -29,7 +29,7 @@ remove:
   - krfb
   - krfb-libs
   - xwaylandvideobridge
-  - plasma-discover-notifier
+  #- plasma-discover-notifier
   - vim-minimal
   #- kmousetool
   - kwrite
