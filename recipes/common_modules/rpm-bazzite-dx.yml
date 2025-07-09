@@ -22,7 +22,7 @@ remove:
   - ptyxis
   - waydroid
   - waydroid-selinux
-  - discover-overlay
+  #- discover-overlay
   #- qsynth
   #- system76-scheduler
   #- steam
