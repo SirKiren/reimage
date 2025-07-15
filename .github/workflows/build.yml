@@ -27,6 +27,7 @@ jobs:
           - recipe-aurora.yml
           - recipe-bazzite-ally.yml
           - recipe-bazzite-dx.yml
+          - recipe-bazzite-gdx.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
