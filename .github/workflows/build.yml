@@ -25,7 +25,7 @@ jobs:
         recipe:
           # !! Add your recipes here 
           - recipe-aurora.yml
-          - recipe-aurora-base.yml
+          - recipe-aurora-hwe.yml
 #          - recipe-bazzite-ally.yml
           - recipe-bazzite-dx.yml
 #          - recipe-bazzite-gdx.yml
