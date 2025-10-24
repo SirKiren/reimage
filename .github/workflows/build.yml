@@ -28,6 +28,7 @@ jobs:
           - recipe-aurora-hwe.yml
 #          - recipe-bazzite-ally.yml
           - recipe-bazzite-dx.yml
+          - recipe-bazzite-dx-nvidia.yml
 #          - recipe-bazzite-gdx.yml
     steps:
        # the build is fully handled by the reusable github action
