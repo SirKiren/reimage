@@ -19,7 +19,7 @@ install:
     - gamescope-shaders
     - kernel-modules-extra
     - kjournald
-
+    - edid-decode
 remove:
   packages:
     - xwaylandvideobridge

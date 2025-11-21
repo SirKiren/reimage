@@ -14,7 +14,7 @@ system:
     #- org.previewqt.PreviewQt
     - com.usebottles.bottles
     - io.github.shiftey.Desktop
-    # - org.mozilla.firefox
+    - org.mozilla.firefox
   remove:
     #- com.obsproject.Studio.Plugin.GStreamerVaapi
     #- com.obsproject.Studio.Plugin.Gstreamer
