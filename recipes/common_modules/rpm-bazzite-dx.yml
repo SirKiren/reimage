@@ -2,9 +2,9 @@ type: rpm-ostree
 #repos:
 
 install:
-  #- firefox
-  #- firefox-langpacks
-  - gamescope
+  # - firefox
+  # - firefox-langpacks
+  # - gamescope
   # - protontricks
   - konsole
   - policycoreutils-gui
