@@ -8,41 +8,43 @@ repos:
     files:
     - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
 install:
+  packages:
   # - firefox
   # - firefox-langpacks
   # - gamescope
   # - protontricks
-  - konsole
-  - policycoreutils-gui
-  - setroubleshoot
-  - setools-gui
-  - kjournald
-  - fastfetch
-  - kde-partitionmanager
-  - corectrl
-  - edid-decode
+    - konsole
+    - policycoreutils-gui
+    - setroubleshoot
+    - setools-gui
+    - kjournald
+    - fastfetch
+    - kde-partitionmanager
+    - corectrl
+    - edid-decode
 remove:
+  packages:
   # example: removing firefox (in favor of the flatpak)
   # "firefox" is the main package, "firefox-langpacks" is a dependency
   # - firefox
   # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-  - steamdeck-kde-presets
+    - steamdeck-kde-presets
   # - ptyxis
-  - waydroid
-  - waydroid-selinux
+    - waydroid
+    - waydroid-selinux
   #- discover-overlay
   #- qsynth
   #- system76-scheduler
   #- steam
   #- krfb
   #- krfb-libs
-  - xwaylandvideobridge
-  - plasma-discover-notifier
+    - xwaylandvideobridge
+    - plasma-discover-notifier
   #- vim-minimal
   #- kmousetool
-  - kwrite
+    - kwrite
   #- vim-enhanced
   #- vim
-  - icoutils
+    - icoutils
   #- yad
-  - filelight
+    - filelight
