@@ -10,12 +10,12 @@ image-version: latest # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
-  - from-file: modules/files.yml
-  - from-file: modules/rpm-bazzite-dx.yml
+  - from-file: ../modules/files.yml
+  - from-file: ../modules/rpm-bazzite-dx.yml
   #- from-file: modules/rpm-ostree.yml
   #- from-file: modules/amd-specific.yml
   #- from-file: modules/game-specific.yml
-  - from-file: modules/default-flatpaks.yml
+  - from-file: ../modules/default-flatpaks.yml
   #- from-file: modules/systemd.yml
   #- from-file: modules/initramfs.yml
   # - type: yafti
