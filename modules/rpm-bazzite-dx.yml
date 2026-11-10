@@ -5,8 +5,8 @@ repos:
     copr:
     - bazzite-org/bazzite
     - bazzite-org/bazzite-multilib
-    files:
-    - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
+    # files:
+    # - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
 install:
   packages:
   # - firefox
